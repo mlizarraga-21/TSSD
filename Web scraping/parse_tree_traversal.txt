@@ -1,0 +1,49 @@
+
+### Body contents ###
+<div id="container">
+<div id="search-top">
+<form action="/index.php" id="searchform">
+<input class="search-field" id="searchInput" name="search" placeholder="Search Halopedia" title="Search Halopedia"...
+ #container ...
+
+...
+<script>(RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgPageParseReport":{"limitreport":{"cputime":"0.305","walltime":"0.353","ppvisitednodes":{"value":4591,"limit":1000000},"postexpandincludes...
+
+...
+
+### Body children ###
+<div id="container">
+<div id="search-top">
+<form action="/index.php" id="searchform">
+<input class="search-field" id="searchInput" name="search" placeholder="Search Halopedia" title="Search Halopedia"...
+
+### Body descendants ###
+<div id="container">
+<div id="search-top">
+<form action="/index.php" id="searchform">
+<input class="search-field" id="searchInput" name="search" placeholder="Search Halopedia" title="Search Halopedia"...
+
+...
+<div id="search-top">
+<form action="/index.php" id="searchform">
+<input class="search-field" id="searchInput" name="search" placeholder="Search Halopedia" title="Search Halopedia" type="text"/>
+<input...
+
+...
+<form action="/index.php" id="searchform">
+<input class="search-field" id="searchInput" name="search" placeholder="Search Halopedia" title="Search Halopedia" type="text"/>
+<input alt="search" class="s...
+
+...
+
+### Parent of title ###
+<div class="clearfix" id="article-text">
+<div class="mw-indicators">
+<div class="mw-indicator" id="mw-indicator-21-canon"><div class="mw-parser-output"><a href="/Category:Canon" title="This article is...
+
+### Next sibling of first paragraph ###
+
+...
+
+### Previous sibling of first paragraph ###
+ ...
