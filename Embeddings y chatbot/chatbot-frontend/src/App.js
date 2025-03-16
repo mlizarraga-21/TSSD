@@ -4,19 +4,6 @@ import "./App.css";
 
 const API_URL = process.env.REACT_APP_API_URL || "http://localhost:5000";
 
-const sendMessage = async () => {
-  try {
-    const response = await axios.post(`${API_URL}/chat`, {
-      message: input,
-    });
-    console.log(response.data);
-    // procesa la respuesta aquí...
-  } catch (error) {
-    console.error("Error al enviar el mensaje", error);
-  }
-};
-
-
 function App() {
   const [input, setInput] = useState("");
   const [messages, setMessages] = useState([]);
@@ -46,7 +33,7 @@ function App() {
     setLoading(true);
 
     try {
-      const response = await axios.post("http://localhost:5000/chat", {
+      const response = await axios.post(`${API_URL}/chat`, {
         message: messageToSend,
       });
 
