@@ -218,7 +218,6 @@ html, body, #root {
   transform: scale(1.05);
 }
 
-/* ===== AVATAR + TTS ===== */
 .avatar-container {
   flex: 1;
   display: flex;
@@ -250,10 +249,13 @@ html, body, #root {
 .avatar-image {
   width: 200px;
   height: 200px;
-  object-fit: cover;
+  object-fit: contain; /* evita el recorte de la imagen */
   border-radius: 50%;
+  background-color: white; /* para imágenes transparentes */
+  padding: 10px; /* opcional: espacio interior para que no quede pegada */
   margin-bottom: 10px;
 }
+
 
 .avatar-name {
   font-size: 18px;
