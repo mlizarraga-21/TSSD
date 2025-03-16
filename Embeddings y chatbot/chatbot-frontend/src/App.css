@@ -247,14 +247,14 @@ html, body, #root {
 }
 
 .avatar-image {
-  width: 200px;
-  height: 200px;
-  object-fit: contain; /* evita el recorte de la imagen */
-  border-radius: 50%;
-  background-color: white; /* para imágenes transparentes */
-  padding: 10px; /* opcional: espacio interior para que no quede pegada */
+  width: 100%;              /* Se adapta al ancho disponible del contenedor */
+  max-width: 250px;         /* Controla el tamaño máximo (ajústalo si quieres) */
+  height: auto;             /* Mantiene la proporción de la imagen */
+  object-fit: contain;      /* Muestra la imagen completa sin recortes */
+  border-radius: 0;         /* Quita el borde redondeado */
   margin-bottom: 10px;
 }
+
 
 
 .avatar-name {
