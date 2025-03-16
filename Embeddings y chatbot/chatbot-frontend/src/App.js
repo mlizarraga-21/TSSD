@@ -2,6 +2,12 @@ import React, { useState, useRef, useEffect } from "react";
 import axios from "axios";
 import "./App.css";
 
+const API_URL = process.env.REACT_APP_API_URL;
+
+const response = await axios.post(`${API_URL}/chat`, {
+  message: input,
+});
+
 function App() {
   const [input, setInput] = useState("");
   const [messages, setMessages] = useState([]);
