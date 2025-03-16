@@ -47,7 +47,7 @@ function App() {
       console.error("Error al comunicarse con el backend", error);
       setMessages([
         ...newMessages,
-        { role: "bot", content: "Hubo un error al obtener respuesta 😢" },
+        { role: "bot", content: "Hubo un error al obtener respuesta" },
       ]);
     } finally {
       setLoading(false);
@@ -163,7 +163,7 @@ function App() {
           </div>
 
           <div className="quick-replies">
-            <p>Respuestas rápidas:</p>
+            <p>Preguntas rápidas:</p>
             <button onClick={() => handleQuickReply("Hola, ¿Quién eres?")}>Hola, ¿Quién eres?</button>
             <button onClick={() => handleQuickReply("¿Qué es Halo?")}>¿Qué es Halo?</button>
             <button onClick={() => handleQuickReply("Ayuda")}>Ayuda</button>
