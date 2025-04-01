@@ -166,7 +166,7 @@ function App() {
             <p>Preguntas rápidas:</p>
             <button onClick={() => handleQuickReply("Hola, ¿Quién eres?")}>Hola, ¿Quién eres?</button>
             <button onClick={() => handleQuickReply("¿Qué es Halo?")}>¿Qué es Halo?</button>
-            <button onClick={() => handleQuickReply("Ayuda")}>Ayuda</button>
+            <button onClick={() => handleQuickReply("¿Quien es el jefe maestro?")}>¿Quien es el jefe maestro?</button>
           </div>
         </div>
 
