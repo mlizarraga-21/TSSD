@@ -15,7 +15,7 @@ const books = [];
 const wiki = [];
 
 // Cargar libros
-fs.createReadStream('DB_Halo_Books_filtrada_top10.csv')
+fs.createReadStream('DB_Halo_Books.csv')
     .pipe(csv())
     .on('data', (row) => {
         books.push({
@@ -26,7 +26,7 @@ fs.createReadStream('DB_Halo_Books_filtrada_top10.csv')
     });
 
 // Cargar wiki
-fs.createReadStream('DB_Halo_Wiki_filtrada.csv')
+fs.createReadStream('DB_Halo_Wiki.csv')
     .pipe(csv())
     .on('data', (row) => {
         wiki.push({
